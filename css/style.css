@@ -368,19 +368,19 @@ h4{
         justify-content:center;
        padding-bottom:3em;
        margin-top:25em;
-        top:240%;
+        top:210%;
     }
     .dynamic-content h3{
         align-self: center;
         position:absolute;
-        top:150%;
+        top:140%;
         left:28%;
         
     }
     .dynamic-content img{
         max-width:30%;
         position:absolute;
-        top: 160%;
+        top: 150%;
         left:30%;
         padding-bottom:3rem;
     
