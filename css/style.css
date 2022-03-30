@@ -373,14 +373,14 @@ h4{
 .dynamic-content h3{
     align-self: center;
     position:absolute;
-    top:110%;
+    top:130%;
     left:22%;
     
 }
 .dynamic-content img{
     max-width:30%;
     position:absolute;
-    top: 130%;
+    top: 150%;
     left:30%;
     padding-bottom:3rem;
 
