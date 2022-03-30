@@ -359,7 +359,31 @@ h4{
         color: honeydew;
         background-color: #91C2B3;
     }
- 
+ .dynamic-content{
+   padding-bottom:120%;
+}
+.dynamic-content p{
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+   padding-bottom:3em;
+   margin-top:15em;
+}
+.dynamic-content h3{
+    align-self: center;
+    position:absolute;
+    top:120%;
+    left:22%;
+    
+}
+.dynamic-content img{
+    max-width:30%;
+    position:absolute;
+    top: 130%;
+    left:30%;
+    padding-bottom:3rem;
+
+}
  
     .panel{
         background-color: #889484c4 ;
@@ -373,7 +397,7 @@ h4{
         position:absolute;
         align-items:center;
         justify-content:center;
-        top:27%;
+        top:210%;
         left:32%;
 
 
