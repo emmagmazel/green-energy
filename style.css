@@ -1,0 +1,418 @@
+
+html {
+    margin:1rem;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+} 
+h2{
+    font-family: 'Commissioner', sans-serif; 
+    font-weight: 400;
+}
+.header{
+    height:15rem;
+    width:100%;
+    position:relative;
+}
+
+img{
+    width:100%;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:40rem;
+    font-family: 'Fraunces', serif;
+    
+}
+.nav-links{
+    padding:2rem;
+    font-size: 2rem;
+}
+
+.nav-links li{
+    display:inline-block;
+    margin:0.5rem;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    padding:0.05rem;
+}
+.masthead{
+    margin-top:-5rem;
+}
+.font-masthead{
+    position: absolute;
+    left:25%;
+    top:35%;
+    text-align: center;
+    line-height: 3rem;
+}
+.font-masthead h1 {
+    font-size: 5rem;
+    color: white;
+}
+.font-masthead h2 {
+    font-size: 4rem;
+    color: white;
+}
+.logo{
+    position: absolute;
+    padding-bottom:2rem;
+    color:#8bab91 ;
+}
+.logo figcaption{
+    font-size: 1.5rem;
+    font-family: 'Fraunces', serif;
+}
+
+h3{
+    font-size: 3rem;
+    font-family: 'Fraunces', serif;
+    align-items: center;
+  
+}
+p{
+    font-family: 'Commissioner', sans-serif;
+    font-size:1rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-bottom:3rem;
+}
+.btn {
+    background-color: #8AB1B8;
+    outline:none;
+    padding:0.5rem;
+}
+.active .btn:hover{
+    color: honeydew;
+    background-color: #91C2B3;
+}
+.dynamic-content{
+   padding-bottom:120%;
+}
+.dynamic-content p{
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+   padding-bottom:3em;
+   margin-top:15em;
+}
+.dynamic-content h3{
+    align-self: center;
+    position:absolute;
+    top:120%;
+    left:22%;
+    
+}
+.dynamic-content img{
+    max-width:30%;
+    position:absolute;
+    top: 130%;
+    left:30%;
+    padding-bottom:3rem;
+
+}
+
+
+.panel{
+    background-color: #889484c4 ;
+    padding:2rem;
+    margin:2rem;
+}
+h4{
+    font-size: 3rem;;
+}
+.copyright p {
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 0.02rem;
+}
+.social i{
+    padding:1rem;
+}
+.social  {
+    position:absolute;
+    top:180%;
+    left:20%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:0.02rem;
+    color: #666f63;
+}
+
+/*Landscape phone and up*/
+@media only screen and (min-width:25em)  {
+    nav{
+        display:inline-block;
+        align-items:center;
+        padding-top:10rem;
+        padding-left:5rem;
+        font-family: 'Fraunces', serif;
+        
+    }
+    .nav-links{
+        padding:0.5rem;
+        font-size: 1rem;
+    }
+    
+    .nav-links li{
+        display:inline-block;
+        margin:0.2rem;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: black;
+        padding:0.02rem;
+    }
+    .masthead{
+        margin-top:-.5rem;
+    }
+    .font-masthead{
+        position: absolute;
+        left:28%;
+        top:37%;
+        text-align: center;
+        line-height: 1rem;
+    }
+    .font-masthead h1 {
+        font-size: 1.6rem;
+        color: white;
+    }
+    .font-masthead h2 {
+        font-size: 1.3rem;
+        color: white;
+    }
+    .logo{
+        display:inline-block;
+        align-items:center;
+        padding-bottom:0.5rem;
+        padding-left:10rem;
+        color:#8bab91 ;
+    }
+    .logo figcaption{
+        font-size: 1rem;
+        font-family: 'Fraunces', serif;
+    }
+    h3{
+        font-size: 1.7rem;
+        font-family: 'Fraunces', serif;
+        align-items: center;
+        margin-left:3rem;
+      
+    }
+    p{
+        font-family: 'Commissioner', sans-serif;
+        font-size:1rem;
+        padding-left:1rem;
+        padding-right:1rem;
+        padding-bottom:1rem;
+    }
+    .btn {
+        background-color: #8AB1B8;
+        outline:none;
+        padding:1rem;
+        align-content: center;
+        margin-bottom:2rem;
+    }
+    .active .btn:hover{
+        color: honeydew;
+        background-color: #91C2B3;
+    }
+    .dynamic-content{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .dynamic-content h3{
+        float:relative;
+    }
+    .dynamic-content img{
+        max-width:50%;
+        border-radius: 10px;
+        float:left;
+       
+    }
+   
+    
+.panel{
+        background-color: #889484c4 ;
+        padding:2rem;
+        margin:2rem;
+    }
+    h4{
+        font-size: 3rem;;
+    }
+    .copyright p {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-bottom: 0.02rem;
+    }
+    .social i{
+        padding:1rem;
+    }
+    .social  {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-top:0.02rem;
+        color: #666f63;
+    }
+    /*portrait tablet and up*/
+@media only screen and (min-width:40em)
+/*landscape desktop (17") and up*/{
+
+    h1 {
+        font-family: 'Fraunces', serif;
+    } 
+    h2{
+        font-family: 'Commissioner', sans-serif; 
+        font-weight: 400;
+    }
+    .header{
+        height:15rem;
+        width:100%;
+        position:relative;
+    }
+    
+    img{
+        width:100%;
+    }
+    
+    nav{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding-left:40rem;
+        font-family: 'Fraunces', serif;
+        
+    }
+    .nav-links{
+        font-size: 2rem;
+        position: absolute;
+        top:10%;
+        left:60%;
+    }
+    
+    .nav-links li{
+        display:inline-block;
+        margin:0.05rem;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: black;
+        padding:0.05rem;
+    }
+    .masthead{
+     
+    }
+    .font-masthead{
+        position: absolute;
+        left:25%;
+        top:35%;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .font-masthead h1 {
+        font-size: 5rem;
+        color: white;
+    }
+    .font-masthead h2 {
+        font-size: 4rem;
+        color: white;
+    }
+    .logo{
+        position: absolute;
+        padding-bottom:1rem;
+        color:#8bab91 ;
+    }
+    .logo figcaption{
+        font-size: 1.5rem;
+        font-family: 'Fraunces', serif;
+    }
+    
+    h3{
+        font-size: 3rem;
+        font-family: 'Fraunces', serif;
+        align-items: center;
+      
+    }
+    p{
+        font-family: 'Commissioner', sans-serif;
+        font-size:1rem;
+        padding-left:3rem;
+        padding-right:3rem;
+        padding-bottom:3rem;
+    }
+    .btn {
+        background-color: #8AB1B8;
+        outline:none;
+        padding:0.5rem;
+    }
+    .active .btn:hover{
+        color: honeydew;
+        background-color: #91C2B3;
+    }
+    .dynamic-content{
+       padding-bottom:120%;
+    }
+    .dynamic-content p{
+        position:absolute;
+        align-items:center;
+        justify-content:center;
+       padding-bottom:3em;
+       margin-top:25em;
+    }
+    .dynamic-content h3{
+        align-self: center;
+        position:absolute;
+        top:140%;
+        left:28%;
+        
+    }
+    .dynamic-content img{
+        max-width:30%;
+        position:absolute;
+        top: 160%;
+        left:30%;
+        padding-bottom:3rem;
+    
+    }
+    
+    
+    .panel{
+        background-color: #889484c4 ;
+        padding:2rem;
+        margin:2rem;
+    }
+    h4{
+        font-size: 3rem;;
+    }
+    .copyright p {
+        position:absolute;
+        align-items:center;
+        justify-content:center;
+        top:227%;
+        left:32%;
+
+
+    }
+    .social i{
+        padding:1rem;
+    }
+    .social  {
+        position:absolute;
+        top:220%;
+        left:35%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-top:0.02rem;
+        color: #666f63;
+    }
