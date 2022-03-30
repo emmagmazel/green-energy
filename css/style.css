@@ -360,7 +360,7 @@ h4{
         background-color: #91C2B3;
     }
     .dynamic-content{
-       padding-bottom:180%;
+       padding-bottom:200%;
     }
     .dynamic-content p{
         position:absolute;
@@ -368,6 +368,7 @@ h4{
         justify-content:center;
        padding-bottom:3em;
        margin-top:25em;
+        top:210%;
     }
     .dynamic-content h3{
         align-self: center;
