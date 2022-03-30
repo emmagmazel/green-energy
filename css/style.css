@@ -367,13 +367,13 @@ h4{
     align-items:center;
     justify-content:center;
    padding-bottom:3em;
-   margin-top:15em;
+   margin-top:10em;
     top:160%;
 }
 .dynamic-content h3{
     align-self: center;
     position:absolute;
-    top:120%;
+    top:110%;
     left:22%;
     
 }
